@@ -971,18 +971,13 @@ class PlayState extends MusicBeatState
 
 
 		// STAGE SCRIPTS
-		#if (MODS_ALLOWED && LUA_ALLOWED)
+		#if LUA_ALLOWED
 		var doPush:Bool = false;
 		var luaFile:String = 'stages/' + curStage + '.lua';
-		if(FileSystem.exists(Paths.modFolders(luaFile))) {
-			luaFile = Paths.modFolders(luaFile);
-			doPush = true;
-		} else {
 			luaFile = Paths.getPreloadPath(luaFile);
-			if(FileSystem.exists(luaFile)) {
+			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
-		}
 
 		if(doPush)
 			luaArray.push(new FunkinLua(luaFile));
@@ -1500,13 +1495,13 @@ class PlayState extends MusicBeatState
 
 		for (folder in foldersToCheck)
 		{
-			if(FileSystem.exists(folder))
+			if(OpenFlAssets.exists(folder))
 			{
-				for (file in FileSystem.readDirectory(folder))
+				for (file in OpenFlAssets.list().filter(folder -> folder.contains('assets/shared/data/$songName/')))
 				{
 					if(file.endsWith('.lua') && !filesPushed.contains(file))
 					{
-						luaArray.push(new FunkinLua(folder + file));
+						luaArray.push(new FunkinLua(file));
 						filesPushed.push(file);
 					}
 				}
