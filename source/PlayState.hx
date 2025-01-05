@@ -1497,7 +1497,7 @@ class PlayState extends MusicBeatState
 		{
 			if(OpenFlAssets.exists(folder))
 			{
-				for (file in OpenFlAssets.list().filter(folder -> folder.contains('assets/shared/data/$songName/')))
+				for (file in OpenFlAssets.list().filter(folder -> folder.contains('assets/data/$songName/')))
 				{
 					if(file.endsWith('.lua') && !filesPushed.contains(file))
 					{
