@@ -62,7 +62,7 @@ class ShadersState extends MusicBeatState
 			fText = new FlxText(60, 600, 1100, 308);
 			fText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			fText.applyMarkup(
-				"Hello Player, this mod has *shaders*\nWe recommend you *turn off* the shader if your PC is *Low-End*\n\nChoose wisely",
+				"Hello Player, this mod has *shaders*\nWe recommend you *turn off* the shader if your Phone is *Low-End*\n\nChoose wisely",
 				[
 					new FlxTextFormatMarkerPair(new FlxTextFormat(0xFFFF0000), "*")
 				]

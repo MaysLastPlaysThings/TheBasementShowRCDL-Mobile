@@ -1,4 +1,4 @@
-import flixel.FlxState;
+/*import flixel.FlxState;
 import flixel.FlxG;
 import flixel.util.FlxTimer;
 import openfl.utils.Assets as OpenFlAssets;
@@ -59,4 +59,4 @@ class StartState extends FlxState
             return;
             #end
         }
-}
+}*/
