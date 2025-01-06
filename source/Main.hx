@@ -84,7 +84,11 @@ class Main extends Sprite
 		}
 	
 		ClientPrefs.loadDefaultKeys();
+		#if desktop
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
+		#else
+		addChild(new FlxGame(1280, 720, TBSIntroState, 60, 60, true, false));
+		#end
 
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
