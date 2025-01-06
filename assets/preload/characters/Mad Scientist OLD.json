@@ -1,22 +1,22 @@
 {
 	"animations": [
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
 			"anim": "idle",
 			"fps": 13,
-			"name": "I",
+			"name": "Mad Scientist I",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Mad Scientist",
+	"image": "characters/Mad Scientist OLD",
 	"position": [
-		-30,
-		120
+		0,
+		-600
 	],
 	"healthicon": "icon",
 	"flip_x": false,
@@ -26,9 +26,9 @@
 		255
 	],
 	"camera_position": [
-		550,
-		-620
+		800,
+		-180
 	],
 	"sing_duration": 4,
-	"scale": 1.4
+	"scale": 0.7
 }

@@ -1,24 +1,24 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": true,
+			"fps": 20,
 			"anim": "idle",
-			"fps": 13,
-			"name": "I",
-			"indices": []
+			"indices": [],
+			"name": "I"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Mad Scientist",
+	"image": "characters/Toothless",
 	"position": [
-		-30,
-		120
+		380,
+		460
 	],
-	"healthicon": "icon",
+	"healthicon": "no",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
@@ -26,9 +26,9 @@
 		255
 	],
 	"camera_position": [
-		550,
-		-620
+		0,
+		0
 	],
-	"sing_duration": 4,
-	"scale": 1.4
+	"sing_duration": 6.1,
+	"scale": 1.2
 }

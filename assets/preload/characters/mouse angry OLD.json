@@ -17,84 +17,79 @@
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "L"
 		},
 		{
 			"offsets": [
-				150,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singDOWN",
 			"indices": [],
 			"name": "D"
 		},
 		{
 			"offsets": [
-				100,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singUP",
 			"indices": [],
 			"name": "U"
 		},
 		{
 			"offsets": [
-				-100,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 12,
+			"fps": 16,
 			"anim": "singRIGHT",
 			"indices": [],
 			"name": "R"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"fps": 12,
-			"anim": "pussy cat lol",
-			"indices": [],
-			"name": "A"
-		},
-		{
 			"offsets": [
 				0,
 				0
 			],
-			"loop": true,
-			"fps": 1,
-			"anim": "dead",
-			"indices": [],
-			"name": "B"
+			"anim": "attack",
+			"fps": 18,
+			"name": "A",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7
+			]
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/MEME MOUSE",
+	"image": "characters/Basement Mouse PH2 OLD",
 	"position": [
-		0,
-		0
+		-289,
+		109
 	],
-	"healthicon": "meme-boi",
+	"healthicon": "mouse-p2",
 	"flip_x": false,
 	"healthbar_colors": [
-		211,
-		137,
-		0
+		160,
+		90,
+		23
 	],
 	"camera_position": [
-		-300,
-		80
+		20,
+		90
 	],
-	"sing_duration": 6.1,
-	"scale": 1.2
+	"sing_duration": 4.7,
+	"scale": 1
 }

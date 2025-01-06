@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "idle",
-			"loop": false,
-			"name": "I"
+			"fps": 12,
+			"name": "I",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-30,
+				-80
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "L"
+			"fps": 12,
+			"name": "L",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				4
+				-72,
+				-87
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "D"
+			"fps": 12,
+			"name": "D",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-40,
+				-96
 			],
-			"indices": [],
-			"fps": 12,
 			"anim": "singUP",
-			"loop": false,
-			"name": "U"
+			"fps": 12,
+			"name": "U",
+			"indices": []
 		},
 		{
-			"offsets": [
-				10,
-				10
-			],
-			"indices": [],
-			"fps": 12,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "R"
+			"offsets": [
+				-35,
+				-70
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "R",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Impostor Jerry",
 	"position": [
-		0,
-		0
+		-280,
+		-275
 	],
 	"healthicon": "imp-jerry",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		17
 	],
 	"camera_position": [
-		0,
-		150
+		150,
+		310
 	],
-	"sing_duration": 6.1,
-	"scale": 1.25
+	"sing_duration": 5,
+	"scale": 0.85
 }

@@ -1,15 +1,15 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 14,
 			"anim": "idle",
-			"indices": [],
-			"name": "I"
+			"fps": 12,
+			"name": "I",
+			"indices": []
 		},
 		{
 			"offsets": [
@@ -17,84 +17,84 @@
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "L"
 		},
 		{
 			"offsets": [
-				150,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singDOWN",
 			"indices": [],
 			"name": "D"
 		},
 		{
 			"offsets": [
-				100,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singUP",
 			"indices": [],
 			"name": "U"
 		},
 		{
 			"offsets": [
-				-100,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 12,
+			"fps": 16,
 			"anim": "singRIGHT",
 			"indices": [],
 			"name": "R"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-143,
+				190
 			],
-			"loop": false,
-			"fps": 12,
-			"anim": "pussy cat lol",
 			"indices": [],
+			"fps": 16,
+			"anim": "hey",
+			"loop": false,
 			"name": "A"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-143,
+				190
 			],
-			"loop": true,
-			"fps": 1,
-			"anim": "dead",
 			"indices": [],
+			"fps": 16,
+			"anim": "attack",
+			"loop": false,
 			"name": "B"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/MEME MOUSE",
+	"image": "characters/Basement Mouse PH3 OLD",
 	"position": [
-		0,
-		0
+		-370,
+		-130
 	],
-	"healthicon": "meme-boi",
+	"healthicon": "mouse-p3",
 	"flip_x": false,
 	"healthbar_colors": [
-		211,
-		137,
-		0
+		170,
+		95,
+		27
 	],
 	"camera_position": [
-		-300,
-		80
+		170,
+		270
 	],
-	"sing_duration": 6.1,
-	"scale": 1.2
+	"sing_duration": 5,
+	"scale": 0.7
 }

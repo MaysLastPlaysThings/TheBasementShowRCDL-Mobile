@@ -2,11 +2,11 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
+				2,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 12,
 			"anim": "idle",
 			"indices": [],
 			"name": "I"
@@ -17,36 +17,36 @@
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 12,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "L"
 		},
 		{
 			"offsets": [
-				150,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 12,
 			"anim": "singDOWN",
 			"indices": [],
 			"name": "D"
 		},
 		{
 			"offsets": [
-				100,
+				0,
 				0
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 12,
 			"anim": "singUP",
 			"indices": [],
 			"name": "U"
 		},
 		{
 			"offsets": [
-				-100,
+				0,
 				0
 			],
 			"loop": false,
@@ -57,44 +57,66 @@
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-110,
+				-140
 			],
 			"loop": false,
 			"fps": 12,
-			"anim": "pussy cat lol",
+			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "A"
+			"name": "missL"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-120,
+				-148
 			],
-			"loop": true,
-			"fps": 1,
-			"anim": "dead",
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWNmiss",
 			"indices": [],
-			"name": "B"
+			"name": "missD"
+		},
+		{
+			"offsets": [
+				-128,
+				-164
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missU"
+		},
+		{
+			"offsets": [
+				-92,
+				-150
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "missR"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/MEME MOUSE",
+	"image": "characters/Crew Boyfriend",
 	"position": [
-		0,
-		0
+		-200,
+		100
 	],
-	"healthicon": "meme-boi",
-	"flip_x": false,
+	"healthicon": "crew bf 2",
+	"flip_x": true,
 	"healthbar_colors": [
-		211,
-		137,
-		0
+		13,
+		52,
+		136
 	],
 	"camera_position": [
-		-300,
-		80
+		150,
+		100
 	],
-	"sing_duration": 6.1,
-	"scale": 1.2
+	"sing_duration": 4,
+	"scale": 1
 }

@@ -2,13 +2,13 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
+				2,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "I"
 		},
 		{
@@ -16,10 +16,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "L"
 		},
 		{
@@ -27,10 +27,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "D"
 		},
 		{
@@ -38,10 +38,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "U"
 		},
 		{
@@ -49,64 +49,64 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "R"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-110,
+				-140
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singLEFTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "missL"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-120,
+				-148
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singDOWNmiss",
-			"loop": false,
+			"indices": [],
 			"name": "missD"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-128,
+				-164
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singUPmiss",
-			"loop": false,
+			"indices": [],
 			"name": "missU"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-92,
+				-150
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singRIGHTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "missR"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Crew Boyfriend",
 	"position": [
-		0,
+		-200,
 		100
 	],
-	"healthicon": "bf",
+	"healthicon": "crew bf",
 	"flip_x": true,
 	"healthbar_colors": [
 		81,
@@ -114,9 +114,9 @@
 		234
 	],
 	"camera_position": [
-		600,
-		-150
+		150,
+		100
 	],
 	"sing_duration": 4,
-	"scale": 1.6
+	"scale": 1
 }

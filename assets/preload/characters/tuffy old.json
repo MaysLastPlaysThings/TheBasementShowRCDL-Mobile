@@ -5,74 +5,74 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "idle",
-			"loop": true,
+			"indices": [],
 			"name": "I"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				200,
+				-80
 			],
-			"indices": [],
-			"fps": 24,
+			"loop": false,
+			"fps": 12,
 			"anim": "singLEFT",
-			"loop": true,
+			"indices": [],
 			"name": "L"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-120,
+				-75
 			],
-			"indices": [],
-			"fps": 14,
-			"anim": "singDOWN",
 			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
 			"name": "D"
 		},
 		{
 			"offsets": [
-				-20,
-				0
+				-67,
+				-14
 			],
-			"indices": [],
-			"fps": 14,
-			"anim": "singUP",
 			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
 			"name": "U"
 		},
 		{
 			"offsets": [
-				-160,
-				0
+				-110,
+				-20
 			],
-			"indices": [],
-			"fps": 14,
-			"anim": "singRIGHT",
 			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
 			"name": "R"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/WB tom",
+	"image": "characters/Tuffy OLD",
 	"position": [
-		-260,
-		60
+		60,
+		180
 	],
-	"healthicon": "WB-tom",
+	"healthicon": "tuffy old",
 	"flip_x": false,
 	"healthbar_colors": [
-		123,
-		108,
-		102
+		151,
+		165,
+		178
 	],
 	"camera_position": [
-		250,
-		0
+		40,
+		-10
 	],
 	"sing_duration": 6.1,
-	"scale": 0.9
+	"scale": 1.1
 }

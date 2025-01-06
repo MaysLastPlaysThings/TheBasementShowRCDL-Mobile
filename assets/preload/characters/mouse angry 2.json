@@ -9,69 +9,75 @@
 			"fps": 14,
 			"anim": "idle",
 			"indices": [],
-			"name": "J I"
+			"name": "I"
 		},
 		{
 			"offsets": [
-				-60,
-				324
+				-156,
+				-30
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "J L"
+			"name": "L"
 		},
 		{
 			"offsets": [
-				-99,
-				205
+				-204,
+				-28
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "J D"
+			"name": "D"
 		},
 		{
 			"offsets": [
-				-141,
-				205
+				-177,
+				-29
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singUP",
 			"indices": [],
-			"name": "J U"
+			"name": "U"
 		},
 		{
 			"offsets": [
-				-20,
-				380
+				-306,
+				-15
 			],
 			"loop": false,
-			"fps": 14,
+			"fps": 16,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "J R"
+			"name": "R"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				34,
-				159
+				-28,
+				-195
 			],
 			"anim": "attack",
 			"fps": 18,
-			"name": "J A",
-			"indices": [3,4,5,6,7]
+			"name": "A",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Basement Mouse PH2",
 	"position": [
-		-250,
-		228
+		-533,
+		-268
 	],
 	"healthicon": "mouse-p2.5",
 	"flip_x": false,
@@ -84,6 +90,6 @@
 		20,
 		90
 	],
-	"sing_duration": 5,
-	"scale": 1
+	"sing_duration": 4.7,
+	"scale": 0.475
 }

@@ -2,77 +2,121 @@
 	"animations": [
 		{
 			"offsets": [
-				61,
-				-187
+				0,
+				0
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 16,
 			"anim": "idle",
 			"indices": [],
-			"name": "idle"
+			"name": "I"
 		},
 		{
 			"offsets": [
-				57,
-				-193
+				0,
+				0
 			],
 			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
+			"fps": 16,
+			"anim": "singLEFT",
 			"indices": [],
-			"name": "right"
+			"name": "L"
 		},
 		{
 			"offsets": [
-				42,
-				-260
+				0,
+				0
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 16,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "down"
+			"name": "D"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				84,
-				-169
+				0,
+				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
+			"indices": [],
+			"name": "U"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				52,
-				-183
+				0,
+				0
 			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "R"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "missL"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "missD"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missU"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "missR"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/pump",
+	"image": "characters/Pump",
 	"position": [
-		70,
-		330
+		-540,
+		-570
 	],
 	"healthicon": "spooky",
 	"flip_x": false,
 	"healthbar_colors": [
-		103,
-		100,
-		119
+		213,
+		126,
+		0
 	],
 	"camera_position": [
-		570,
-		340
+		930,
+		490
 	],
-	"sing_duration": 6.99999999999999,
-	"scale": 0.85
+	"sing_duration": 4,
+	"scale": 0.3
 }

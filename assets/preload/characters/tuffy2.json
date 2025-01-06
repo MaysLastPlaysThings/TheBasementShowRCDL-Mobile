@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				10,
-				10
+				0,
+				0
 			],
 			"anim": "singUP",
 			"fps": 14,
@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/tuffy",
 	"position": [
-		-180,
-		-440
+		-190,
+		-460
 	],
 	"healthicon": "tuffy-2",
 	"flip_x": false,
@@ -74,5 +74,5 @@
 		500
 	],
 	"sing_duration": 6.1,
-	"scale": 0.5
+	"scale": 0.55
 }

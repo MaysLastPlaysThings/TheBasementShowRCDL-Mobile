@@ -1,66 +1,110 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				61,
-				-187
+				0,
+				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "idle",
-			"fps": 24,
-			"name": "idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				66,
-				-202
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				92,
-				-210
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "down",
-			"indices": []
-		},
-		{
-			"offsets": [
-				106,
-				-159
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
 			"indices": [],
-			"name": "up"
+			"name": "I"
 		},
 		{
 			"offsets": [
-				122,
-				-184
+				0,
+				0
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 16,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "left"
+			"name": "L"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "D"
+		},
+		{
+			"offsets": [
+				0,
+				5
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "U"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "R"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "missL"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "missD"
+		},
+		{
+			"offsets": [
+				0,
+				5
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missU"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "missR"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/skid",
+	"image": "characters/Skid",
 	"position": [
-		300,
-		-100
+		-570,
+		-600
 	],
 	"healthicon": "spooky",
 	"flip_x": true,
@@ -70,9 +114,9 @@
 		0
 	],
 	"camera_position": [
-		-500,
-		380
+		-790,
+		580
 	],
-	"sing_duration": 6.99999999999999,
-	"scale": 0.85
+	"sing_duration": 4,
+	"scale": 0.3
 }

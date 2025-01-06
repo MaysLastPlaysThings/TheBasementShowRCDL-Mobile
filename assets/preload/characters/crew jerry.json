@@ -1,100 +1,89 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": true,
+			"fps": 12,
 			"anim": "idle",
-			"fps": 12,
-			"name": "I",
-			"indices": []
+			"indices": [],
+			"name": "I"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-1,
-				-4
+				104,
+				127
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singLEFT",
-			"fps": 12,
-			"name": "L",
-			"indices": []
+			"indices": [],
+			"name": "L"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-14,
-				14
+				60,
+				149
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singDOWN",
-			"fps": 12,
-			"name": "D",
-			"indices": []
+			"indices": [],
+			"name": "D"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-1,
-				-9
+				97,
+				120
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singUP",
-			"fps": 12,
-			"name": "U",
-			"indices": []
+			"indices": [],
+			"name": "U"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				10,
-				7
+				107,
+				142
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "R",
-			"indices": []
+			"indices": [],
+			"name": "R"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				-8
+				-5,
+				18
 			],
-			"anim": "hi",
+			"loop": false,
 			"fps": 12,
-			"name": "H",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-1,
-				-10
-			],
 			"anim": "off",
-			"fps": 12,
-			"name": "O",
-			"indices": []
+			"indices": [],
+			"name": "A"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Crew Jerry",
 	"position": [
-		0,
-		0
+		-540,
+		-500
 	],
 	"healthicon": "crew-jerry",
 	"flip_x": false,
 	"healthbar_colors": [
 		169,
 		96,
-		37
+		17
 	],
 	"camera_position": [
-		0,
-		0
+		400,
+		550
 	],
-	"sing_duration": 6.1,
-	"scale": 1.5
+	"sing_duration": 5,
+	"scale": 0.6
 }
