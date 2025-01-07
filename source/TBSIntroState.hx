@@ -19,7 +19,7 @@ import sys.thread.Thread;
 #end
 
 #if VIDEOS_ALLOWED
-import vlc.MP4Handler;
+import hxcodec.VideoHandler as MP4Handler;
 #end
 
 #if sys
