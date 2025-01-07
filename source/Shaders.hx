@@ -179,16 +179,16 @@ class MenusGlow extends FlxShader
 
 // GAUSSIAN BLUR SETTINGS
 uniform float dim;
-float directions;
-float quality;
 //float directions = 16;
 //float quality = 30;
 uniform float size; 
 
 void main(void)
 { 
-    vec2 uv = openfl_TextureCoordv.xy ;
-
+    vec2 uv = openfl_TextureCoordv.xy;
+    
+   float directions = 8.0;
+   float quality = 4;
     float Pi = 6.28318530718; // Pi*2
 
     vec4 Color = flixel_texture2D(bitmap, uv);
@@ -215,8 +215,6 @@ void main(void)
 
     public function new() {
     super();
-    directions.value = [8.0];
-    quality.value = [4];
     dim.value = [2];
 		size.value = [8];
     }
