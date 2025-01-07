@@ -245,7 +245,7 @@ vec2 curve(vec2 uv)
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
-    // FINALY FIXED!
+    // FINALY
     vec2 uv = fragCoord.xy / iResolution.xy;
     uv = curve(uv);
 
@@ -269,7 +269,6 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
 void main() {
     mainImage(gl_FragColor, openfl_TextureCoordv * openfl_TextureSize);
 }
-
       ')
 
     public function new() {
