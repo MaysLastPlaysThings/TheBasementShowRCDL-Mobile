@@ -1353,28 +1353,28 @@ class PlayState extends MusicBeatState
 		}
 
 
-	if (PlayState.SONG.song == 'House-for-Sale' ||
-		PlayState.SONG.song == 'Evaporate' ||
-	    PlayState.SONG.song == 'Sirokou' ||
-		PlayState.SONG.song == 'BloodNCartoon' ||
-		PlayState.SONG.song == 'Splatter' ||
-		PlayState.SONG.song == 'Chainsaw-Maniac' ||
-		PlayState.SONG.song == 'Come for Revenge' ||
-		PlayState.SONG.song == 'Reburning' ||
-		PlayState.SONG.song == 'Invade' ||
-		PlayState.SONG.song == 'Desire or Despair' ||
-		PlayState.SONG.song == 'Blue' ||
-		PlayState.SONG.song == 'Hydrophobia' ||
-		PlayState.SONG.song == 'Tragical Comedy' ||
-		PlayState.SONG.song == 'Shattered' ||
-		PlayState.SONG.song == 'Funny-Cartoon' ||
-		PlayState.SONG.song == 'Cats-Carnival' ||
-		PlayState.SONG.song == 'Unstoppable-Block' ||
-		PlayState.SONG.song == 'Paralyzed' ||
-		PlayState.SONG.song == 'Vanishing' ||
-		PlayState.SONG.song == 'Black Humor' ||
-		PlayState.SONG.song == 'Triple Trouble' ||
-		PlayState.SONG.song == 'Kaboom') {
+	if (PlayState.SONG.song == 'house-for-sale' ||
+		PlayState.SONG.song == 'evaporate' ||
+	    PlayState.SONG.song == 'sirokou' ||
+		PlayState.SONG.song == 'bloodncartoon' ||
+		PlayState.SONG.song == 'splatter' ||
+		PlayState.SONG.song == 'chainsaw-maniac' ||
+		PlayState.SONG.song == 'come-for-revenge' ||
+		PlayState.SONG.song == 'reburning' ||
+		PlayState.SONG.song == 'invade' ||
+		PlayState.SONG.song == 'desire-or-despair' ||
+		PlayState.SONG.song == 'blue' ||
+		PlayState.SONG.song == 'hydrophobia' ||
+		PlayState.SONG.song == 'tragical-comedy' ||
+		PlayState.SONG.song == 'shattered' ||
+		PlayState.SONG.song == 'funny-cartoon' ||
+		PlayState.SONG.song == 'cats-carnival' ||
+		PlayState.SONG.song == 'unstoppable-block' ||
+		PlayState.SONG.song == 'paralyzed' ||
+		PlayState.SONG.song == 'vanishing' ||
+		PlayState.SONG.song == 'black-humor' ||
+		PlayState.SONG.song == 'triple-trouble' ||
+		PlayState.SONG.song == 'kaboom') {
 		if (ClientPrefs.shaders && TBSFreeplayState.chosendifficulty == 'hard') {
 		analog = new FlxSprite(0, 0);
 		analog.frames = Paths.getSparrowAtlas('analog', 'shared');
@@ -1538,28 +1538,28 @@ class PlayState extends MusicBeatState
 			precacheList.set(Paths.formatToSongPath(ClientPrefs.pauseMusic), 'music');
 		}
 
-		if (PlayState.SONG.song == 'House-for-Sale' ||
-			PlayState.SONG.song == 'Evaporate' ||
-		    PlayState.SONG.song == 'Sirokou' ||
-			PlayState.SONG.song == 'BloodNCartoon' ||
-			PlayState.SONG.song == 'Splatter' ||
-			PlayState.SONG.song == 'Chainsaw-Maniac' ||
-			PlayState.SONG.song == 'Come for Revenge' ||
-			PlayState.SONG.song == 'Reburning' ||
-			PlayState.SONG.song == 'Invade' ||
-			PlayState.SONG.song == 'Desire or Despair' ||
-			PlayState.SONG.song == 'Blue' ||
-			PlayState.SONG.song == 'Hydrophobia' ||
-			PlayState.SONG.song == 'Tragical Comedy' ||
-			PlayState.SONG.song == 'Shattered' ||
-			PlayState.SONG.song == 'Funny-Cartoon' ||
-			PlayState.SONG.song == 'Cats-Carnival' ||
-			PlayState.SONG.song == 'Unstoppable-Block' ||
-			PlayState.SONG.song == 'Paralyzed' ||
-			PlayState.SONG.song == 'Vanishing' ||
-			PlayState.SONG.song == 'Black Humor' ||
-			PlayState.SONG.song == 'Triple Trouble' ||
-			PlayState.SONG.song == 'Kaboom') {
+		if (PlayState.SONG.song == 'house-for-sale' ||
+			PlayState.SONG.song == 'evaporate' ||
+		    PlayState.SONG.song == 'sirokou' ||
+			PlayState.SONG.song == 'bloodncartoon' ||
+			PlayState.SONG.song == 'splatter' ||
+			PlayState.SONG.song == 'chainsaw-maniac' ||
+			PlayState.SONG.song == 'come-for-revenge' ||
+			PlayState.SONG.song == 'reburning' ||
+			PlayState.SONG.song == 'invade' ||
+			PlayState.SONG.song == 'desire-or-despair' ||
+			PlayState.SONG.song == 'blue' ||
+			PlayState.SONG.song == 'hydrophobia' ||
+			PlayState.SONG.song == 'tragical-comedy' ||
+			PlayState.SONG.song == 'shattered' ||
+			PlayState.SONG.song == 'funny-cartoon' ||
+			PlayState.SONG.song == 'cats-carnival' ||
+			PlayState.SONG.song == 'unstoppable-block' ||
+			PlayState.SONG.song == 'paralyzed' ||
+			PlayState.SONG.song == 'vanishing' ||
+			PlayState.SONG.song == 'black humor' ||
+			PlayState.SONG.song == 'triple-trouble' ||
+			PlayState.SONG.song == 'kaboom') {
 			if (ClientPrefs.shaders && TBSFreeplayState.chosendifficulty == 'hard') {
 			tvShader.blueOpac.value[0] = 1.3;
 			camHUD.setFilters([new ShaderFilter(tvShader)]);
@@ -1664,7 +1664,7 @@ class PlayState extends MusicBeatState
 					return true;
 				}
 		}
-		FlxG.log.warn('Missing shader $name .frag AND .vert files!');
+	}	FlxG.log.warn('Missing shader $name .frag AND .vert files!');
 		return false;
 	}
 	#end
@@ -2359,7 +2359,7 @@ class PlayState extends MusicBeatState
 				}
 
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
-				if (PlayState.SONG.song == 'Mucho Mouse') {
+				if (PlayState.SONG.song == 'mucho-mouse') {
 				introAssets.set('default', ['UT-3', 'UT-2', 'UT-1', 'UT-Go']);
 				}
 				else {
@@ -2383,7 +2383,7 @@ class PlayState extends MusicBeatState
 					santa.dance(true);
 				}
 
-				if (PlayState.SONG.song == 'Mucho Mouse') {
+				if (PlayState.SONG.song == 'mucho-mouse') {
 				switch (swagCounter)
 				{
 					case 0:
@@ -2627,11 +2627,11 @@ class PlayState extends MusicBeatState
 		scoreTxt.text = 'Score: ' + songScore + ' / Combo Breaks: ' + songMisses + ' / Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '% [' + ratingName + ' - ' + ratingFC + ']';
 		}
 	}
-	else if (PlayState.SONG.song == 'House for Sale OLD' ||
-		    PlayState.SONG.song == 'Meme Mania OLD' ||
-	        PlayState.SONG.song == 'Vanishing OLD' ||
-			PlayState.SONG.song == 'Invade OLDER' ||
-			PlayState.SONG.song == 'Funny Cartoon OLD') {
+	else if (PlayState.SONG.song == 'house-for-sale-old' ||
+		    PlayState.SONG.song == 'meme-mania-old' ||
+	        PlayState.SONG.song == 'vanishing-old' ||
+			PlayState.SONG.song == 'invade-older' ||
+			PlayState.SONG.song == 'funny-cartoon-old') {
 		if (ratingFC == "") {
 		scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Ratings: ?';
 		}
@@ -3319,28 +3319,28 @@ class PlayState extends MusicBeatState
 		HB.x = healthBar.x - 522;
 		HB.y = healthBar.y - 560;
 
-		if (PlayState.SONG.song == 'House-for-Sale' ||
-			PlayState.SONG.song == 'Evaporate' ||
-		    PlayState.SONG.song == 'Sirokou' ||
-			PlayState.SONG.song == 'BloodNCartoon' ||
-			PlayState.SONG.song == 'Splatter' ||
-			PlayState.SONG.song == 'Chainsaw-Maniac' ||
-			PlayState.SONG.song == 'Come for Revenge' ||
-			PlayState.SONG.song == 'Reburning' ||
-			PlayState.SONG.song == 'Invade' ||
-			PlayState.SONG.song == 'Desire or Despair' ||
-			PlayState.SONG.song == 'Blue' ||
-			PlayState.SONG.song == 'Hydrophobia' ||
-			PlayState.SONG.song == 'Tragical Comedy' ||
-			PlayState.SONG.song == 'Shattered' ||
-			PlayState.SONG.song == 'Funny-Cartoon' ||
-			PlayState.SONG.song == 'Cats-Carnival' ||
-			PlayState.SONG.song == 'Unstoppable-Block' ||
-			PlayState.SONG.song == 'Paralyzed' ||
-			PlayState.SONG.song == 'Vanishing' ||
-			PlayState.SONG.song == 'Black Humor' ||
-			PlayState.SONG.song == 'Triple Trouble' ||
-			PlayState.SONG.song == 'Kaboom') {
+		if (PlayState.SONG.song == 'house-for-sale' ||
+			PlayState.SONG.song == 'evaporate' ||
+		    PlayState.SONG.song == 'sirokou' ||
+			PlayState.SONG.song == 'bloodncartoon' ||
+			PlayState.SONG.song == 'splatter' ||
+			PlayState.SONG.song == 'chainsaw-maniac' ||
+			PlayState.SONG.song == 'come-for-revenge' ||
+			PlayState.SONG.song == 'reburning' ||
+			PlayState.SONG.song == 'invade' ||
+			PlayState.SONG.song == 'desire-or-despair' ||
+			PlayState.SONG.song == 'blue' ||
+			PlayState.SONG.song == 'hydrophobia' ||
+			PlayState.SONG.song == 'tragical-comedy' ||
+			PlayState.SONG.song == 'shattered' ||
+			PlayState.SONG.song == 'funny-cartoon' ||
+			PlayState.SONG.song == 'cats-carnival' ||
+			PlayState.SONG.song == 'unstoppable-block' ||
+			PlayState.SONG.song == 'paralyzed' ||
+			PlayState.SONG.song == 'vanishing' ||
+			PlayState.SONG.song == 'black-humor' ||
+			PlayState.SONG.song == 'triple-trouble' ||
+			PlayState.SONG.song == 'kaboom') {
 		    if (ClientPrefs.shaders && TBSFreeplayState.chosendifficulty == 'hard') {
 			tvShader.iTime.value[0] += elapsed;
 		    } 
@@ -3510,7 +3510,7 @@ class PlayState extends MusicBeatState
 		if (FlxG.keys.anyJustPressed(debugKeysChart) && !endingSong && !inCutscene && ClientPrefs.cheaterOn)
 		{
 			openChartEditor();
-			Lib.application.window.title = "The Basement Show";
+//			Lib.application.window.title = "The Basement Show";
 		}
 
 		if (stopSnowThing && (snow1.alpha != 0 || snow2.alpha != 0 || snow3.alpha != 0)) {
@@ -3522,11 +3522,11 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		if (PlayState.SONG.song == 'House for Sale OLD' ||
-		    PlayState.SONG.song == 'Meme Mania OLD' ||
-	        PlayState.SONG.song == 'Vanishing OLD' ||
-			PlayState.SONG.song == 'Invade OLDER' ||
-			PlayState.SONG.song == 'Funny Cartoon OLD') {
+		if (PlayState.SONG.song == 'house-for-sale-old' ||
+		    PlayState.SONG.song == 'meme-mania-old' ||
+	        PlayState.SONG.song == 'vanishing-old' ||
+			PlayState.SONG.song == 'invade-old' ||
+			PlayState.SONG.song == 'funny-cartoon-old') {
 		timieBouncy = 33;
 		}
 		else {
@@ -3584,7 +3584,7 @@ class PlayState extends MusicBeatState
 			persistentUpdate = false;
 			paused = true;
 			cancelMusicFadeTween();
-			Lib.application.window.title = "The Basement Show";
+	//		Lib.application.window.title = "The Basement Show";
 			MusicBeatState.switchState(new CharacterEditorState(SONG.player2));
 		}
 
@@ -3855,11 +3855,11 @@ class PlayState extends MusicBeatState
 			vocals.pause();
 		}
 
-		if  (PlayState.SONG.song == 'House for Sale OLD' || 
-			PlayState.SONG.song == 'Vanishing OLD' || 
-		    PlayState.SONG.song == 'Meme Mania OLD' ||
-			PlayState.SONG.song == 'Invade OLDER' ||
-			PlayState.SONG.song == 'Funny Cartoon OLD') {
+		if  (PlayState.SONG.song == 'house-for-sale-old' || 
+			PlayState.SONG.song == 'vanishing-old' || 
+		    PlayState.SONG.song == 'meme-mania-old' ||
+			PlayState.SONG.song == 'invade-old' ||
+			PlayState.SONG.song == 'funny-cartoon-old') {
 		openSubState(new OldPauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 		}
 		else {
@@ -4500,7 +4500,7 @@ class PlayState extends MusicBeatState
 				#end
 			}
 			playbackRate = 1;
-			Lib.application.window.title = "The Basement Show";
+	//		Lib.application.window.title = "The Basement Show";
 
 			if (chartingMode)
 			{
@@ -4705,11 +4705,11 @@ class PlayState extends MusicBeatState
 			pixelShitPart2 = '-pixel';
 		}
 
-		if (PlayState.SONG.song == 'House for Sale OLD' ||
-		    PlayState.SONG.song == 'Meme Mania OLD' ||
-	        PlayState.SONG.song == 'Vanishing OLD' ||
-			PlayState.SONG.song == 'Invade OLDER' ||
-			PlayState.SONG.song == 'Funny Cartoon OLD') {
+		if (PlayState.SONG.song == 'house-for-sale-old' ||
+		    PlayState.SONG.song == 'meme-mania-old' ||
+	        PlayState.SONG.song == 'vanishing-old' ||
+			PlayState.SONG.song == 'invade-older' ||
+			PlayState.SONG.song == 'funny-cartoon-old') {
 			rating.loadGraphic(Paths.image(pixelShitPart1 + 'old-' + daRating.image + pixelShitPart2));
 		}
 		else {
@@ -4722,11 +4722,11 @@ class PlayState extends MusicBeatState
 		rating.velocity.y -= FlxG.random.int(140, 175) * playbackRate;
 		rating.velocity.x -= FlxG.random.int(0, 10) * playbackRate;
 		rating.x += 208;
-		if (PlayState.SONG.song == 'Meme Mania' ||
-			PlayState.SONG.song == 'BloodnCartoon' ||
-		    PlayState.SONG.song == 'Splatter' ||
-			PlayState.SONG.song == 'Chainsaw-Maniac' ||
-			PlayState.SONG.song == 'Mucho Mouse') {
+		if (PlayState.SONG.song == 'meme-mania' ||
+			PlayState.SONG.song == 'bloodncartoon' ||
+		    PlayState.SONG.song == 'splatter' ||
+			PlayState.SONG.song == 'chainsaw-maniac' ||
+			PlayState.SONG.song == 'mucho-mouse') {
 		rating.y -= -178;
 		}
 		else {
@@ -4801,11 +4801,11 @@ class PlayState extends MusicBeatState
 			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(pixelShitPart1 + 'num' + Std.int(i) + pixelShitPart2));
 			numScore.screenCenter();
 			numScore.x = coolText.x + (43 * daLoop) - 90;
-			if (PlayState.SONG.song == 'House for Sale OLD' ||
-				PlayState.SONG.song == 'Meme Mania OLD' ||
-				PlayState.SONG.song == 'Vanishing OLD' ||
-				PlayState.SONG.song == 'Invade OLDER' ||
-				PlayState.SONG.song == 'Funny Cartoon OLD') {
+			if (PlayState.SONG.song == 'house-for-sale-old' ||
+				PlayState.SONG.song == 'meme-ania-old' ||
+				PlayState.SONG.song == 'vanishing-old' ||
+				PlayState.SONG.song == 'invade-older' ||
+				PlayState.SONG.song == 'funny-cartoon-old') {
 			numScore.visible = true;
 			numScore.alpha = 1;
 			}
@@ -5631,11 +5631,11 @@ class PlayState extends MusicBeatState
 			resyncVocals();
 		}
 
-		if (PlayState.SONG.song == 'Steep Slopes' && curStep == 1535) {
+		if (PlayState.SONG.song == 'steep-slopes' && curStep == 1535) {
 			FlxTween.num(songLength, 156610, 2, {ease: FlxEase.circInOut}, function(num) {songLength = num;});
 		}
 
-		if (PlayState.SONG.song == 'Faded' && curStep == 1646) {
+		if (PlayState.SONG.song == 'faded' && curStep == 1646) {
 			FlxTween.num(songLength, 186670, 2, {ease: FlxEase.circInOut}, function(num) {songLength = num;});
 		}
 
