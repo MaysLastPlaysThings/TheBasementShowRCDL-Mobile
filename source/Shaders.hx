@@ -226,7 +226,7 @@ class MenusVCRShader extends FlxShader
 #pragma header
 
 #define round(a) floor(a + 0.5)
-#define texture flixel_texture2D
+//#define texture flixel_texture2D
 #define iResolution openfl_TextureSize
 uniform float nothingNess;
 #define iChannel0 bitmap
@@ -241,31 +241,31 @@ vec2 curve(vec2 uv)
 	uv.x *= 1.0 + pow((abs(uv.y) / 5.0), 2.0);
 	uv.y *= 1.0 + pow((abs(uv.x) / 4.0), 2.0);
 	uv  = (uv / 2.0) + 0.5;
-	uv =  uv *0.92 + 0.04;
+	uv =  uv * 0.92 + 0.04;
 	return uv;
 }
 
-void mainImage( out vec4 fragColor, in vec2 fragCoord )
+void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
     //Curve
     vec2 uv = fragCoord.xy / iResolution.xy;
-	uv = curve( uv );
+	uv = curve(uv);
     
     vec3 col;
 
     // Chromatic
-    col.r = texture(iChannel0,vec2(uv.x+0.002,uv.y)).x;
-    col.g = texture(iChannel0,vec2(uv.x,uv.y)).y;
-    col.b = texture(iChannel0,vec2(uv.x+0.002 * -1,uv.y)).z;
+    col.r = flixel_texture2D(iChannel0,vec2(uv.x+0.002,uv.y)).x;
+    col.g = flixel_texture2D(iChannel0,vec2(uv.x,uv.y)).y;
+    col.b = flixel_texture2D(iChannel0,vec2(uv.x+0.002 * -1,uv.y)).z;
 
     col *= step(0.0, uv.x) * step(0.0, uv.y);
     col *= 1.0 - step(1.0, uv.x) * 1.0 - step(1.0, uv.y);
 
-    col *= vec3(0.95,1.05,0.95);
+    col *= vec3(0.95, 1.05, 0.95);
 
-    col *= 0.5 + 0.5*16.0*uv.x*uv.y*(1.0-uv.x)*(1.0-uv.y);
+    col *= 0.5 + 0.5 * 16.0 * uv.x * uv.y*(1.0 - uv.x) * (1.0 - uv.y);
 
-    fragColor = vec4(col,texture(iChannel0, uv).a);
+    fragColor = vec4(col,flixel_texture2D(iChannel0, uv).a);
 }
 
 void main() {
