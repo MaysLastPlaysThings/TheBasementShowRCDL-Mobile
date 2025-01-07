@@ -192,8 +192,8 @@ class MainMenuState extends MusicBeatState
 			shader1 = new Shaders.MenusGlow();
 			shader1.size.value[0] = 16;
 			shader1.dim.value[0] = 2;
-			shader2 = new Shaders.MenusVCRShader();
-			FlxG.camera.setFilters([new ShaderFilter(shader1),new ShaderFilter(shader2)]);
+		//	shader2 = new Shaders.MenusVCRShader();
+			FlxG.camera.setFilters([new ShaderFilter(shader1)/*, new ShaderFilter(shader2*)*/]);
 		}
 
 		// NG.core.calls.event.logEvent('swag').send();
