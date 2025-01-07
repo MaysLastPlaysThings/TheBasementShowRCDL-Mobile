@@ -174,31 +174,21 @@ class OldTVShader extends FlxShader
 class MenusGlow extends FlxShader
 {
   @:glFragmentSource('
-  #pragma header
+  // SHADER BY BBPANZU THANK YOU!!1111
+#pragma header
 
 // GAUSSIAN BLUR SETTINGS
 uniform float dim;
-<<<<<<< HEAD
 // float directions = 16.0;
 // float quality = 30.0;
-=======
-//float directions = 16;
-//float quality = 30;
->>>>>>> 64a99bd702e31f1f0c60f745b29abce35ff67555
 uniform float size; 
 
 void main(void)
 { 
     vec2 uv = openfl_TextureCoordv.xy;
-<<<<<<< HEAD
 
     float directions = 8.0;
     float quality = 4.0;
-=======
-    
-   float directions = 8.0;
-   float quality = 4;
->>>>>>> 64a99bd702e31f1f0c60f745b29abce35ff67555
     float Pi = 6.28318530718; // Pi*2
 
     vec4 Color = flixel_texture2D(bitmap, uv);
@@ -215,13 +205,8 @@ void main(void)
         }
     }
 
-<<<<<<< HEAD
     Color /= max(aaply - (directions - 1.0), 1.0); // Certifique-se de usar 1.0 como float
     vec4 bloom = (flixel_texture2D(bitmap, uv) / dim) + Color;
-=======
-    Color /= max(aaply - (directions - 1.0), 1);//(dim * quality) * directions - (directions - 1.0);
-    vec4 bloom =  (flixel_texture2D(bitmap, uv)/ dim)+Color;
->>>>>>> 64a99bd702e31f1f0c60f745b29abce35ff67555
 
     gl_FragColor = bloom;
 }
