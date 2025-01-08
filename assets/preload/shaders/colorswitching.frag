@@ -12,9 +12,9 @@ void mainImage()
     vec2 iResolution = openfl_TextureSize;
     vec2 p = fragCoord.xy/iResolution.xy;
     
-	vec4 col = texture(iChannel0, p);
+	vec4 col = texture2D(iChannel0, p);
 
-	col.rgb = texture(iChannel0, p).brg;
+	col.rgb = texture2D(iChannel0, p).brg;
 
     fragColor = col;
 }
