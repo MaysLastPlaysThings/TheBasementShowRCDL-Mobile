@@ -310,13 +310,13 @@ function onCreatePost()
 --WEEK 1
 --WEEK 1
 
-	if songName == 'Sirokou' or
-	songName == 'Sirokou OLD' or
-	songName == 'Vanishing' or
-	songName == 'Vanishing OLD' or
-	songName == 'House-for-Sale OLD' or
-	songName == 'Evaporate' or 
-	songName == 'House-for-Sale' then
+	if songName == 'sirokou' or
+	songName == 'sirokou-old' or
+	songName == 'vanishing' or
+	songName == 'vanishing-old' or
+	songName == 'house-for-sale-old' or
+	songName == 'evaporate' or 
+	songName == 'house-for-sale' then
 	bgName = 'songBG'
 end
 
@@ -324,9 +324,9 @@ end
 --WEEK 2
 --WEEK 2
 
-	if songName == 'Tragical-Comedy' or
-	songName == 'Blue' or
-	songName == 'Shattered' then
+	if songName == 'tragical-comedy' or
+	songName == 'blue' or
+	songName == 'shattered' then
 	bgName = 'songBG13'
 end
 
@@ -334,12 +334,12 @@ end
 --WEEK 3
 --WEEK 3
 
-	if songName == 'Funny-Cartoon' or
-	songName == 'Cats-Carnival' or
-	songName == 'Unstoppable-Block' then
+	if songName == 'funny-cartoon' or
+	songName == 'cats-carnival' or
+	songName == 'unstoppable-block' then
 	bgName = 'songBG8'
 end
-	if songName == 'Funny Cartoon OLD' then
+	if songName == 'funny-cartoon-old' then
 	bgName = 'songBG17'
 end
 
@@ -347,17 +347,17 @@ end
 --WEEK 4
 --WEEK 4
 
-	if songName == 'BloodNCartoon' or
-	songName == 'BloodNCartoon OLD' then
+	if songName == 'bloodncartoon' or
+	songName == 'bloodncartoon-old' then
 	bgName = 'songBG18'
 end
-	if songName == 'Splatter' then
+	if songName == 'splatter' then
 	bgName = 'songBG19'
 end
-	if songName == 'Splatter OLD' then
+	if songName == 'splatter-old' then
 	bgName = 'songBG19'
 end
-	if songName == 'Chainsaw-Maniac' then
+	if songName == 'chainsaw-maniac' then
 	bgName = 'songBG20'
 end
 
@@ -365,7 +365,7 @@ end
 --WEEK 5
 --WEEK 5
 
-	if songName == 'None of All OLD' then
+	if songName == 'none-of-all-old' then
 	bgName = 'songBG15'
 end
 
@@ -373,11 +373,11 @@ end
 --FREEPLAY D SIDE
 --FREEPLAY D SIDE
 
-	if songName == 'Reburning' or
-	songName == 'Come for Revenge' then
+	if songName == 'reburning' or
+	songName == 'come-for-revenge' then
 	bgName = 'songBG5'
 end
-    if songName == 'Paralyzed' then
+    if songName == 'paralyzed' then
         bgName = 'songBG22'
 end
 
@@ -385,14 +385,14 @@ end
 --FREEPLAY OCs
 --FREEPLAY OCs
 
-	if songName == 'Jam' or
-	songName == 'Jam OLD' then
+	if songName == 'jam' or
+	songName == 'jam-old' then
 	bgName = 'songBG10'
 end
-	if songName == 'Desire or Despair' then
+	if songName == 'desire-or-despair' then
 	bgName = 'songBG9'
 end
-	if songName == 'Frozen Bell' then
+	if songName == 'frozen-bell' then
 	bgName = 'songBG21'
 end
 
@@ -400,26 +400,26 @@ end
 --FREEPLAY EXTRAS
 --FREEPLAY EXTRAS
 
-	if songName == 'Invade' or
-	songName == 'Invade OLD' or
-	songName == 'Invade OLDER' then
+	if songName == 'invade' or
+	songName == 'invade-old' or
+	songName == 'invade-older' then
 	bgName = 'songBG3'
 end
-	if songName == 'Black Humor' or
-	songName == 'Black Humor OLD' then
+	if songName == 'black-humor' or
+	songName == 'black-humor OLD' then
 	bgName = 'songBG14'
 end
-	if songName == 'Hydrophobia' then
+	if songName == 'hydrophobia' then
 	bgName = 'songBG11'
 end
-	if songName == 'Recurrence' then
+	if songName == 'recurrence' then
 	bgName = 'songBG24'
 end
-	if songName == 'Meme Mania' or
-	songName == 'Meme Mania OLD' then
+	if songName == 'meme-mania' or
+	songName == 'meme-mania-old' then
 	bgName = 'songBG2'
 end
-	if songName == 'Steep Slopes' then
+	if songName == 'steep-slopes' then
 	bgName = 'songBG16'
 end
 
@@ -427,10 +427,10 @@ end
 --FREEPLAY MIXS AND COVERS
 --FREEPLAY MIXS AND COVERS
 
-    if songName == 'War of Whiskers' then
+    if songName == 'war-of-whiskers' then
         bgName = 'songBG25'
 end
-    if songName == 'War of Whiskers OLD' then
+    if songName == 'war-of-whiskers-old' then
         bgName = 'songBG7'
 end
 

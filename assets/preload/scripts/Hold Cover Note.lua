@@ -16,7 +16,7 @@ function onCreatePost()
         playAnim("holdCoverEnd"..notedatas[i], "holdend", true);
     end
 
-    if songName == 'Splatter' then
+    if songName == 'splatter' then
         holdofsets = {
             hold = {x=-0,y=-103},
             holdend = {x=-2,y=-103}
