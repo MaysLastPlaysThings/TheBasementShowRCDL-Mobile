@@ -1,7 +1,4 @@
 #pragma header
-vec2 uv = openfl_TextureCoordv.xy;
-vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
 uniform float iTime;
 #define iChannel0 bitmap
 #define texture flixel_texture2D
@@ -33,6 +30,8 @@ float verticalBar(float pos, float uvY, float offset)
 
 void mainImage()
 {
+  vec2 fragCoord = openfl_TextureCoordv * openfl_TextureSize;
+  vec2 iResolution = openfl_TextureSize;
 	vec2 uv = fragCoord.xy / iResolution.xy;
     
     for (float i = 0.0; i < 0.71; i += 0.1313)
@@ -52,9 +51,9 @@ void mainImage()
     vec2 offsetR = vec2(0.006 * sin(iTime), 0.0) * colorOffsetIntensity;
     vec2 offsetG = vec2(0.0073 * (cos(iTime * 0.97)), 0.0) * colorOffsetIntensity;
     
-    float r = texture(iChannel0, uv + offsetR).r;
-    float g = texture(iChannel0, uv + offsetG).g;
-    float b = texture(iChannel0, uv).b;
+    float r = texture2D(iChannel0, uv + offsetR).r;
+    float g = texture2D(iChannel0, uv + offsetG).g;
+    float b = texture2D(iChannel0, uv).b;
 
     vec4 tex = vec4(r, g, b, 1.0);
     fragColor = tex;
