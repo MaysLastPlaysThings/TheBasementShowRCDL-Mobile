@@ -43,6 +43,7 @@ class MainMenuState extends MusicBeatState
 	var shader1:Shaders.MenusGlow;
 	var shader2:Shaders.MenusVCRShader;
 
+
 	var char1:FlxSprite;
 	
 	var optionShit:Array<String> = [

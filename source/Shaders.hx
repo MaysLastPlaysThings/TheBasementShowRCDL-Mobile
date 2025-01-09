@@ -50,7 +50,7 @@ class BuildingShader extends FlxShader
 
 class OldTVShader extends FlxShader
 {
-   @:glFragmentSource('
+  @:glFragmentSource('
 
   #pragma header
 

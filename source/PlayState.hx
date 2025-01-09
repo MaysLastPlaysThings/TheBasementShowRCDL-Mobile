@@ -385,9 +385,10 @@ class PlayState extends MusicBeatState
 		    PlayState.SONG.song == 'Meme Mania OLD' ||
 			PlayState.SONG.song == 'Invade OLDER' ||
 			PlayState.SONG.song == 'Funny Cartoon OLD') {
-			Lib.application.window.title = 'The Basement Show - Now Playing: ' + PlayState.SONG.song + ' - By: JerryWannaRat';
+	//		Lib.application.window.title = 'The Basement Show - Now Playing: ' + PlayState.SONG.song + ' - By: JerryWannaRat';
 		}
-		else if (PlayState.SONG.song == 'Black Humor') {
+
+	/*	else if (PlayState.SONG.song == 'Black Humor') {
 			Lib.application.window.title = 'The Basement Show - Now Playing: ' + PlayState.SONG.song + ' - By: Gh05t49_Crrr, Breath_Sans';
 		}
 		else if (PlayState.SONG.song == 'Triple Trouble') {
@@ -398,7 +399,7 @@ class PlayState extends MusicBeatState
 		}
 		else {
 			Lib.application.window.title = 'The Basement Show - Now Playing: ' + PlayState.SONG.song + ' - By: ' + TBSFreeplayState.songCredits[TBSFreeplayState.curSelected];
-		}
+		}*/
 
 		//Ratings
 		ratingsData.push(new Rating('sick')); //default rating
@@ -1199,11 +1200,11 @@ class PlayState extends MusicBeatState
 		add(HB);
 		healthBarBG.sprTracker = healthBar;
 
-		if (PlayState.SONG.song == 'House for Sale OLD' || 
-			PlayState.SONG.song == 'Vanishing OLD' || 
-		    PlayState.SONG.song == 'Meme Mania OLD' ||
-			PlayState.SONG.song == 'Invade OLDER' ||
-			PlayState.SONG.song == 'Funny Cartoon OLD') {
+		if (PlayState.SONG.song == 'house-for-sale-old' || 
+			PlayState.SONG.song == 'vanishing-old' || 
+		    PlayState.SONG.song == 'meme-mania-old' ||
+			PlayState.SONG.song == 'invade-older' ||
+			PlayState.SONG.song == 'funny-cartoon-old') {
 		oldhealthBarBG = new AttachedSprite('oldhealthBar');
 		oldhealthBarBG.y = FlxG.height * 1.29;
 		oldhealthBarBG.screenCenter(X);

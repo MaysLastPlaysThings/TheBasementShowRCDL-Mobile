@@ -17,7 +17,7 @@ import lime.app.Application;
 import openfl.events.UncaughtErrorEvent;
 import haxe.CallStack;
 import haxe.io.Path;
-import Discord.DiscordClient;
+//import Discord.DiscordClient;
 import sys.io.Process;
 #end
 
@@ -119,8 +119,6 @@ class Main extends Sprite
 		dateNow = dateNow.replace(" ", "_");
 		dateNow = dateNow.replace(":", "'");
 
-		path = "./crash/" + "PsychEngine_" + dateNow + ".txt";
-
 		for (stackItem in callStack)
 		{
 			switch (stackItem)
@@ -135,7 +133,7 @@ class Main extends Sprite
 		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
 
 		Sys.println(errMsg);
-		Sys.println("Crash dump saved in " + Path.normalize(path));
+		Sys.println("Crash dump saved in ");
 
 		Application.current.window.alert(errMsg, "Error!");
 		#if desktop

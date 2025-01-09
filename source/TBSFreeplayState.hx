@@ -19,7 +19,7 @@ import openfl.filters.ShaderFilter;
 
 class TBSFreeplayState extends MusicBeatState
 {
-	public static var freeplays:Array<String> = ['House-for-Sale', 'Evaporate', 'Sirokou']; // freeplay songs
+	public static var freeplays:Array<String> = ['house-for-sale', 'evaporate', 'sirokou']; // freeplay songs
 	public static var songCredits:Array<String> = ['Wind', 'Rhodes_W', 'NaglazGYamiZaleD'];
 	public static var curCategory:Int = 0; // current selection
 	public static var curWeekThing:Float = 0; // current catagories
@@ -309,11 +309,11 @@ class TBSFreeplayState extends MusicBeatState
 
         switch (freeplays[curSelected])
         {
-        case 'Invade' :
+        case 'invade' :
 		limits = 2;
         hasVersion = true;
-		case 'House-for-Sale' | 'Vanishing' | 'Sirokou' | 'Funny-Cartoon' | 'BloodNcartoon' | 'Splatter' | 'None-of-All' |
-		'Black-Humor' | 'Jam' | 'Meme-Mania' | 'War-of-Whiskers':
+		case 'house-for-sale' | 'vanishing' | 'sirokou' | 'funny-cartoon' | 'bloodncartoon' | 'splatter' | 'none-of-all' |
+		'black-humor' | 'jam' | 'meme-mania' | 'war-of-whiskers':
 		limits = 1;
 		hasVersion = true;
         default :
@@ -339,19 +339,19 @@ class TBSFreeplayState extends MusicBeatState
 		switch (curWeekThing)
 		{
 		case 0:
-			Lib.application.window.title = "The Basement Show: Freeplay 1: Secret Of Nobody - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 1: Secret Of Nobody - " + freeplays[curSelected];
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
 			selectedTxt.text = 'Secret Of Nobody >';
 			freeplays = ['House-for-Sale', 'Evaporate', 'Sirokou'];
 			songCredits = ['Wind', 'Rhodes_W', 'NaglazGYamiZaleD'];
 		case 1:
-			Lib.application.window.title = "The Basement Show: Freeplay 2: Love is Hopeless - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 2: Love is Hopeless - " + freeplays[curSelected];
 			songchar.loadGraphic(Paths.image('freeplay/pictures/blue-tom'));
 			selectedTxt.text = '< Love Is Hopeless >';
 			freeplays = ['Blue', 'Tragical-Comedy', 'Shattered'];
 			songCredits = ['JerryWannaRat', 'HeroComics', 'C-air'];
 		case 2:
-			Lib.application.window.title = "The Basement Show: Freeplay 3: Glitch House - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 3: Glitch House - " + freeplays[curSelected];
 			songchar.loadGraphic(Paths.image('freeplay/pictures/pibby-tom'));
 			selectedTxt.text = '< Glitch House >';
 			freeplays = ['Funny-Cartoon', 'Cats-Carnival', 'Unstoppable-Block'];
@@ -359,48 +359,48 @@ class TBSFreeplayState extends MusicBeatState
 		case 3:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
 			selectedTxt.text = '< Bloody Waltz >';
-			Lib.application.window.title = "The Basement Show: Freeplay 4: Bloody Waltz - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 4: Bloody Waltz - " + freeplays[curSelected];
 			freeplays = ['BloodNcartoon', 'Splatter', 'Chainsaw-Maniac'];
 			songCredits = ['Breath_Sans', 'Breath_Sans', 'CZTV-28'];
 		case 4:
 			songchar.loadGraphic(Paths.image((freeplays[curSelected] == '???' ? 'freeplay/pictures/unknown' : 'freeplay/pictures/' + freeplays[curSelected])));
-			Lib.application.window.title = "The Basement Show: Freeplay 5:  Dreamland Of Angel (Demo) - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 5:  Dreamland Of Angel (Demo) - " + freeplays[curSelected];
 			selectedTxt.text = '< DreamLand Of Angel >';
 			freeplays = ['None-of-All', '???', '???'];
 			songCredits = ['HeroComics', '', ''];
 		case 5:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/unknown'));
-			Lib.application.window.title = "The Basement Show: Freeplay 6:  VHS Tapes Rewind (Coming Soon) - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 6:  VHS Tapes Rewind (Coming Soon) - " + freeplays[curSelected];
 			selectedTxt.text = '< VHS Tape Rewind >';
 			freeplays = ['???', '???', '???'];
 			songCredits = ['', '', ''];
 		case 6:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
-			Lib.application.window.title = "The Basement Show: Freeplay 7: D-sides - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 7: D-sides - " + freeplays[curSelected];
 			selectedTxt.text = '< Dsides >';
 			freeplays = ['Come-for-Revenge', 'Reburning', 'Paralyzed'];
 			songCredits = ['JerryWannaRat', 'Rhodes_W', 'Gh05t49_Crrr'];
 		case 7:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
-			Lib.application.window.title = "The Basement Show: Freeplay 8: OCs - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 8: OCs - " + freeplays[curSelected];
 			selectedTxt.text = '< OCs >';
 			freeplays = ['Jam', 'Desire-or-Despair', 'Frozen-Bell'];
 			songCredits = ['Breath_Sans', 'Rhodes_W', 'Oil'];
 		case 8:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
-			Lib.application.window.title = "The Basement Show: Freeplay 9: Extras - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 9: Extras - " + freeplays[curSelected];
 			selectedTxt.text = '< Extras >';
 			freeplays = ['Vanishing', 'Invade', 'Black-Humor', 'Mucho-Mouse', 'Hydrophobia', 'Recurrence'];
 			songCredits = ['DOGE122', 'HeroComics', 'Gh05t49_Crrr\nBreath_Sans', 'JerryWannaRat', 'NaglazGYamiZaleD', '75_7'];
 		case 9:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
-			Lib.application.window.title = "The Basement Show: Freeplay 10: Memes - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 10: Memes - " + freeplays[curSelected];
 			selectedTxt.text = '< Memes >';
 			freeplays = ['Meme-Mania', 'Steep-Slopes', 'Faded'];
 			songCredits = ['Breath_Sans', 'HeroComics', 'HeroComics'];
 		case 10:
 			songchar.loadGraphic(Paths.image('freeplay/pictures/' + freeplays[curSelected]));
-			Lib.application.window.title = "The Basement Show: Freeplay 11: Mixes & Covers - " + freeplays[curSelected];
+	//		Lib.application.window.title = "The Basement Show: Freeplay 11: Mixes & Covers - " + freeplays[curSelected];
 			selectedTxt.text = '< Mixes And Covers';
 			freeplays = ['War-of-Whiskers', 'Kaboom'];
 			songCredits = ['Gh05t49_Crrr', 'Bbpanzu'];
